@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import AddButton from "./AddButton.js";
+import Form from "./Form.js";
 import Footer from "./Footer.js";
 import Header from "./Header.js";
 import Main from "./Main.js";
@@ -35,9 +35,9 @@ function App() {
     setShowRecipe(recipeToDisplay[0]);
   }
 
-  // function changeIngredientsState() {
-  //   setIngredientsPage
-  // }
+  function createNewRecipe(newRecipe) {
+    setRecipelist((previousrecipelist) => [...previousrecipelist, newRecipe])
+  }
 
   return (
     <>
@@ -48,7 +48,7 @@ function App() {
         displayRecipe={displayRecipe}
       />
       <Main recipelist={recipelist} showRecipe={showRecipe} />
-      <AddButton />
+      <Form createNewRecipe={createNewRecipe} />
       <Footer />
     </>
   );
