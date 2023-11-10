@@ -10,7 +10,7 @@ export default function MenuBar({ recipelist }) {
     <section>
       <p>menu bar works</p>
       {recipelist.map((recipelist) => (
-        <RecipeName recipelist={recipelist} />
+        <RecipeName key={recipelist.id} recipelist={recipelist} />
       ))}
     </section>
   );
