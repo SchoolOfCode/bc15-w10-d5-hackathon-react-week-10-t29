@@ -10,10 +10,13 @@ import { useState } from "react";
 import defaultRecipes from "./recipes.json";
 
 function App() {
+  //sets an initial state and an ability to change the state
+  const [recipelist, setrecipelist] = useState(defaultRecipes);
+  //console.log(recipelist);
   return (
     <>
       <Header />
-      <MenuBar />
+      <MenuBar recipelist={recipelist} />
       <Main />
       <AddButton />
       <Footer />

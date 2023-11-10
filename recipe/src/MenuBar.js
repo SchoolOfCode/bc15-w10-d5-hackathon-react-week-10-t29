@@ -5,6 +5,15 @@
 
 import RecipeName from "./RecipeName.js";
 
-export default function MenuBar() {
-  return <p>MenuBar works</p>;
+//import key from App
+export default function MenuBar({ recipelist }) {
+  return (<section>
+
+    {recipelist.map((recipe) => (<RecipeName recipelist={recipelist} />)
+    )
+    }
+  </section>
+  )
 }
+
+
