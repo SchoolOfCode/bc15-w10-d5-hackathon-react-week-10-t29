@@ -42,13 +42,16 @@ function App() {
   return (
     <>
       <Header />
+      <div class="wrapper">
       <MenuBar
         recipelist={recipelist}
         deleteRecipe={deleteRecipe}
         displayRecipe={displayRecipe}
       />
       <Main recipelist={recipelist} showRecipe={showRecipe} />
+      </div>
       <Form createNewRecipe={createNewRecipe} />
+      
       <Footer />
     </>
   );

@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #dd9787;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+header {
+  background-color: #678d58;
+  text-align: center;
+  padding: 5vw;
+}
+
+.wrapper {
+  display: flex;
+
+}
+
+.menu {
+  background-color: #678d58;
+  padding: 2vw;
+}
+
+.individualRecipe {
+  background-color: #f6e7cb;
+  padding: 0 1vw;
+}
+
+.main {
+  background-color: #a6c48a;
+  padding: 2vw;
+}
+
+.footer {
+  text-align: center;
+  margin: 0;
 }

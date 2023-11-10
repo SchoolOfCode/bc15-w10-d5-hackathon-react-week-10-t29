@@ -4,7 +4,7 @@ import Method from "./Method.js";
 
 export default function Main({ recipelist, showRecipe }) {
   return (
-    <section>
+    <section class="main">
       <p>{showRecipe.ingredients}</p>
       <p>{showRecipe.instructions}</p>
       {/* {(showRecipe) => (

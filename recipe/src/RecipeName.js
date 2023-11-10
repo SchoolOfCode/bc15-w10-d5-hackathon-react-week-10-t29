@@ -12,7 +12,7 @@ export default function RecipeName({
   return (
     <div className="individualRecipe">
       <p onClick={() => displayRecipe(recipelist.id)}>{recipelist.name}</p>
-      <button onClick={() => deleteRecipe(recipelist.id)}>X</button>
+      <button onClick={() => deleteRecipe(recipelist.id)}>❎</button>
     </div>
   );
 }
