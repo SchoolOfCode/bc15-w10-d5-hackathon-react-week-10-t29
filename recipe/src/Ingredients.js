@@ -1,3 +1,8 @@
-export default function Ingredients() {
-  return <p>Ingr works</p>;
+export default function Ingredients({ showRecipe }) {
+  return (
+    <>
+      <p>hello</p>
+      <p>{showRecipe}</p>
+    </>
+  );
 }

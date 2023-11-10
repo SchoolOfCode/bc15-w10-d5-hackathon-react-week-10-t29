@@ -1,3 +1,3 @@
 export default function Method() {
-  return <p>method works</p>;
+  return <div className="mainContainer"></div>;
 }

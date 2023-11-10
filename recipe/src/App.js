@@ -12,23 +12,42 @@ import defaultRecipes from "./recipes.json";
 function App() {
   //sets an initial state and an ability to change the state
   const [recipelist, setRecipelist] = useState(defaultRecipes);
+  const [showRecipe, setShowRecipe] = useState("");
+  // const [ingredientsPage, setIngredientsPage] = useState("ingredients");
+
   //console.log(recipelist);
 
-  function deleteRecipe(idToDelete){
-    console.log(idToDelete)
-    const updatedRecipes = recipelist.filter((recipelist) => 
-      recipelist.id !== idToDelete
-      
+  function deleteRecipe(idToDelete) {
+    console.log(idToDelete);
+    const updatedRecipes = recipelist.filter(
+      (recipelist) => recipelist.id !== idToDelete
     );
     console.log(updatedRecipes);
-    setRecipelist(updatedRecipes)
+    setRecipelist(updatedRecipes);
   }
+
+  function displayRecipe(idToShow) {
+    console.log(idToShow);
+    const recipeToDisplay = recipelist.filter(
+      (recipelist) => recipelist.id === idToShow
+    );
+    console.log(recipeToDisplay);
+    setShowRecipe(recipeToDisplay[0]);
+  }
+
+  // function changeIngredientsState() {
+  //   setIngredientsPage
+  // }
 
   return (
     <>
       <Header />
-      <MenuBar recipelist={recipelist} deleteRecipe={deleteRecipe} />
-      <Main />
+      <MenuBar
+        recipelist={recipelist}
+        deleteRecipe={deleteRecipe}
+        displayRecipe={displayRecipe}
+      />
+      <Main recipelist={recipelist} showRecipe={showRecipe} />
       <AddButton />
       <Footer />
     </>
