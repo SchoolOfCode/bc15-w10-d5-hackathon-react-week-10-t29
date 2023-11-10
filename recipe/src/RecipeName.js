@@ -1,3 +1,7 @@
-export default function RecipeName() {
-  return <p>RecipeName works</p>;
+export default function RecipeName({ recipelist }) {
+  return (
+    <>
+      <p>{recipelist.name}</p>
+    </>
+  );
 }
