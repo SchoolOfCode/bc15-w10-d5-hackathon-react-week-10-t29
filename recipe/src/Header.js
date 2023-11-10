@@ -1,0 +1,10 @@
+// Plan
+// header tag <hi> title
+
+export default function Header() {
+  return (
+    <header>
+      <h1>Recipes</h1>
+    </header>
+  );
+}
