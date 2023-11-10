@@ -5,12 +5,14 @@
 
 import RecipeName from "./RecipeName.js";
 
-export default function MenuBar({ recipelist }) {
+export default function MenuBar({ recipelist, deleteRecipe }) {
   return (
     <section>
       {/* <p>menu bar works</p> */}
       {recipelist.map((recipelist) => (
-        <RecipeName key={recipelist.id} recipelist={recipelist} />
+        <RecipeName key={recipelist.id} recipelist={recipelist} 
+          deleteRecipe={deleteRecipe}
+        />
       ))}
     </section>
   );
