@@ -1,0 +1,34 @@
+{
+    "recipes": [
+      {
+        "name": "Spaghetti Bolognese",
+        "category": "Main Dish",
+        "ingredients": ["500g ground beef", "1 onion", "2 cloves garlic", "400g canned tomatoes", "200g tomato sauce", "1 tsp oregano", "Salt and pepper to taste", "300g spaghetti"],
+        "instructions": ["In a pan, brown the ground beef over medium heat.", "Add chopped onion and minced garlic, cook until softened.", "Stir in canned tomatoes, tomato sauce, oregano, salt, and pepper.", "Simmer for 20 minutes, stirring occasionally.", "Meanwhile, cook spaghetti according to package instructions.", "Serve the Bolognese sauce over the cooked spaghetti."]
+      },
+      {
+        "name": "Chicken Stir-Fry",
+        "category": "Main Dish",
+        "ingredients": ["500g chicken breast, sliced", "1 bell pepper, sliced", "1 broccoli crown, florets only", "2 carrots, julienned", "3 tbsp soy sauce", "2 tbsp oyster sauce", "1 tbsp sesame oil", "2 cloves garlic, minced", "2 tbsp vegetable oil"],
+        "instructions": ["Heat vegetable oil in a wok over high heat.", "Add sliced chicken and cook until browned.", "Add minced garlic and stir-fry for 1 minute.", "Add sliced bell pepper, julienned carrots, and broccoli florets.", "Combine soy sauce, oyster sauce, and sesame oil; pour over the chicken and vegetables.", "Stir-fry for an additional 3-5 minutes until vegetables are tender-crisp.", "Serve over rice."]
+      },
+      {
+        "name": "Caprese Salad",
+        "category": "Salad",
+        "ingredients": ["4 large tomatoes, sliced", "200g fresh mozzarella, sliced", "1 bunch fresh basil leaves", "3 tbsp extra-virgin olive oil", "Balsamic glaze for drizzling", "Salt and pepper to taste"],
+        "instructions": ["Arrange tomato and mozzarella slices on a serving platter.", "Tuck fresh basil leaves between the tomato and mozzarella slices.", "Drizzle extra-virgin olive oil over the salad.", "Season with salt and pepper to taste.", "Finish by drizzling balsamic glaze over the top.", "Serve immediately."]
+      },
+      {
+        "name": "Vegetarian Quinoa Bowl",
+        "category": "Vegetarian",
+        "ingredients": ["1 cup quinoa, cooked", "1 can black beans, drained and rinsed", "1 cup corn kernels, cooked", "1 avocado, sliced", "1 cup cherry tomatoes, halved", "1/2 cup red onion, finely chopped", "Cilantro for garnish", "Lime wedges", "Salt and pepper to taste"],
+        "instructions": ["In a bowl, layer cooked quinoa as the base.", "Top with black beans, corn, avocado slices, cherry tomatoes, and red onion.", "Season with salt and pepper to taste.", "Garnish with cilantro and serve with lime wedges on the side."]
+      },
+      {
+        "name": "Chocolate Chip Cookies",
+        "category": "Dessert",
+        "ingredients": ["1 cup butter, softened", "1 cup white sugar", "1 cup packed brown sugar", "2 large eggs", "1 tsp vanilla extract", "3 cups all-purpose flour", "1 tsp baking soda", "1/2 tsp baking powder", "1/2 tsp salt", "2 cups chocolate chips"],
+        "instructions": ["Preheat oven to 350°F (175°C).", "In a large bowl, cream together butter, white sugar, and brown sugar until smooth.", "Beat in eggs one at a time, then stir in vanilla.", "In a separate bowl, combine flour, baking soda, baking powder, and salt.", "Gradually add the dry ingredients to the wet ingredients and mix well.", "Fold in chocolate chips.", "Drop rounded tablespoons of dough onto ungreased baking sheets.", "Bake for 10-12 minutes until the edges are golden brown.", "Allow cookies to cool on the baking sheet for a few minutes before transferring to a wire rack to cool completely."]
+      }
+    ]
+  }
